@@ -1,0 +1,35 @@
+.custom-button {
+    width: 320px;
+    height: 50px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    background: linear-gradient(90deg, #704CFF, #E59FFE);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.custom-button:hover {
+    background: linear-gradient(90deg, #E59FFE, #704CFF);
+
+}
+
+.loginPage {
+    display: grid;
+    place-items: center;
+    margin-top: 5%;
+}
+
+.dropShadow {
+    width: 25rem;
+    max-width: calc(-5rem + 100vw);
+    filter: blur(70px);
+    height: 300px;
+    z-index: -1;
+    margin-top: -20%;
+    background: -webkit-linear-gradient(270deg, rgba(112, 76, 255, 1) 0%, rgba(229, 159, 254, 1));
+}

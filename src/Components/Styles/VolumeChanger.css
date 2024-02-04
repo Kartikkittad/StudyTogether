@@ -1,0 +1,21 @@
+.volume-slider {
+    width: 100px;
+    -webkit-appearance: none;
+    margin: 10px 0;
+    background-color: #ddd;
+    height: 3px;
+    border-radius: 5px;
+    outline: none;
+    position: fixed;
+    z-index: 999;
+}
+
+.volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color: #4caf50;
+    border-radius: 50%;
+    cursor: pointer;
+}
