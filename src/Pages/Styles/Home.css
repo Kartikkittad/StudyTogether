@@ -24,9 +24,11 @@ html {
     font-weight: 900;
     letter-spacing: 0.6px;
 
-    .highlight {
-        color: #00E0FF;
-    }
+
+}
+
+.highlight {
+    color: #00E0FF;
 }
 
 .subTitle {
