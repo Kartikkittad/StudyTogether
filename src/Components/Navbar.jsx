@@ -18,23 +18,23 @@ function Navbar() {
         <>
             <nav>
                 <img src={logo} alt='logo' className='logo' />
-                <button className='navbar-toggle' onClick={toggleNav}>&#9776; </button>
+                <button className='navbar-toggle' onClick={toggleNav}>&#9776;</button>
                 <ul className={isNavOpen ? 'nav-menu open' : 'nav-menu'}>
                     <li>
-                        <Link to='/' onClick={toggleNav}>Home</Link>
+                        <Link to='/' >Home</Link>
                     </li>
                     <li>
-                        <Link to='/join' onClick={toggleNav}>How to join</Link>
+                        <Link to='/join' >How to join</Link>
                     </li>
                     <li>
-                        <Link to='/about' onClick={toggleNav}>About us</Link>
+                        <Link to='/about' >About us</Link>
                     </li>
                     <li>
-                        <Link to='/report' onClick={toggleNav}>Report/Contact us</Link>
+                        <Link to='/report' >Report/Contact us</Link>
                     </li>
                     <SignedOut>
                         <li>
-                            <Link to='/login' onClick={toggleNav}>
+                            <Link to='/login' >
                                 <div className="gradient-border-button">
                                     Login
                                 </div>
